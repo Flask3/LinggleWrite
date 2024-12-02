@@ -1,20 +1,12 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { firebaseConfig } from "../data";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyDXPB1Djx-IEMf-9B144Ko3mi4EU7TP7jQ",
-  authDomain: "linggle-write.firebaseapp.com",
-  projectId: "linggle-write",
-  storageBucket: "linggle-write.appspot.com",
-  messagingSenderId: "881008859930",
-  appId: "1:881008859930:web:f6b5b341d6d92bdc5aeaa3",
-  measurementId: "G-D3QDS0ZG83"
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
