@@ -1,0 +1,45 @@
+
+* {
+  /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 768px){
+  .input-output-container{
+      flex-direction: column;
+      /* flex: 1 1 0%; */
+      height: 85%;
+  }
+
+  .input-container {
+    height: 50%;
+    padding-bottom: 0.125rem;
+    
+  }
+
+  .wordfield-container {
+    padding-top: 0.125rem;
+    height: 50%;
+  }
+  
+  .input-area {
+    border-radius: 0.25rem;
+  }
+
+  .hint-field, .result-field {
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+  .tab {
+    height: 8%;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+.deletion {
+    color: rgb(245, 25, 25);
+    text-decoration: line-through;
+  }
+  
+.correction {
+    color: rgb(18, 114, 18);
+    text-decoration: bold;
+}
+
+.word {
+  font-family: Microsoft JhengHei;
+}
+.selected {
+    background-color: rgba(255, 190, 66, 255);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }

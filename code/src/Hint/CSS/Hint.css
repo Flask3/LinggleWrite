@@ -1,0 +1,36 @@
+
+
+.container-hintblock {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    overflow: auto;
+}
+
+.hintblock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.25rem;
+    /* overflow: visible; */
+    /* border: 1px solid black; */
+}
+
+.pattern {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    margin-bottom: 0.25rem;
+}
+
+.example {
+    color: grey;
+    display: inline;
+    margin-bottom: 0.25rem;
+    white-space: break-spaces;
+}
+
+.ngram { 
+    color: red;
+}

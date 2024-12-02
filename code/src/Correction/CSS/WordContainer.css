@@ -1,0 +1,12 @@
+.wordContainer {
+    /* inline-flex是讓changeBtn置中的關鍵 */
+    display: inline-flex; 
+    justify-content: center;
+    position: relative;
+
+    box-sizing: border-box;
+  }
+
+  
+
+  
